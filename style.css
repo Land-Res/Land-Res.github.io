@@ -1,0 +1,133 @@
+  html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: Times;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+.container {
+  display: flex;
+  /* justify-content: space-between; */
+  max-width: 960px;
+  margin: 20px auto;
+  background-color: #aeaeae;
+  box-shadow: 1px 1px 10px #000000;
+}
+.container .profile {
+  flex-basis: 35%;
+  background-color: #39383a;
+  margin-right: 30px;
+}
+.container .profile p {
+  color: #ababab;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24.19px;
+  letter-spacing: 0.5px;
+}
+.container .profile .profile-photo img {
+  display: block;
+  max-width: 400px;
+  transform: scale(-1, 1)
+}
+.container .profile .profile-info {
+  padding: 30px 40px 50px;
+}
+.container .profile .profile-info h2 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.63px;
+}
+.container .profile .contacts {
+  margin-bottom: 70px;
+}
+.container .profile .contacts-item {
+  padding: 22px 0;
+  border-bottom: 1px dashed #5a5a5a;
+}
+.container .profile .contacts-item p {
+  display: block;
+  max-width: 154px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ababab;
+  font-family: "Open Sans";
+  text-decoration: none;
+  font-style: normal;
+}
+.container .profile .contacts-item a{
+  color: #ababab;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.container .profile .contacts-item a:hover{
+  color: #c8c8c8;
+}
+.container .profile .contacts-item h3 {
+  margin: 0;
+  color: #fff;
+}
+.container .resume {
+  /* flex-basis: 62.5%; */
+  padding: 25px 30px;
+  background-color: #fff;
+}
+.container .resume-wrap {
+  padding: 36px 20px;
+  border: 1px solid rgba(168, 168, 168, 0.44);
+  height: 100%;
+  color: #39383a;
+  font-size: 18px;
+  font-weight: 600;
+}
+.container .resume-wrap .about {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.container .resume-wrap .about-name h1 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 7.75px;
+  text-transform: uppercase;
+}
+.container .resume-wrap .about-name p {
+  color: #808080;
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+}
+.container .resume-wrap .about-contacts p {
+  color: #808080;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.12px;
+}
+.container .resume-wrap .skills {
+  border-bottom: 1px solid #e0e0e0;
+}
+.container .resume-wrap .skills .list {
+  font-size: 20px;
+}
+.resume-wrap .resume-wrap .list-item {
+  margin-bottom: 60px;
+}
+.resume-wrap .list-item_title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.resume-wrap .list-item_text {
+  color: #777777;
+  font-size: 16px;
+  font-weight: 400;
+}
